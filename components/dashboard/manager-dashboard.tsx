@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { Search, Eye, Edit, Trash2, Plus, Users, Calendar, DollarSign, Star } from "lucide-react"
+import { Search, Eye, Edit, Trash2, Plus, Users, Calendar, BadgeIndianRupee , Star } from "lucide-react"
 import { mockArtistSubmissions } from "@/lib/mock-data"
 
 export function ManagerDashboard() {
@@ -50,7 +50,7 @@ export function ManagerDashboard() {
     {
       title: "Total Revenue",
       value: "₹12,45,000",
-      icon: DollarSign,
+      icon: BadgeIndianRupee ,
       color: "text-purple-600",
       bgColor: "bg-purple-100",
     },
