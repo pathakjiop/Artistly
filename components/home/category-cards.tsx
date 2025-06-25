@@ -5,28 +5,28 @@ import { Music, Users, Mic, Headphones } from "lucide-react"
 const categories = [
   {
     name: "Musicians",
-    description: "Solo artists, bands, and orchestras",
+    description: "Solo, bands, orchestras",
     icon: Music,
     count: "150+ artists",
     href: "/artists?category=musicians",
   },
   {
     name: "Dancers",
-    description: "Classical, contemporary, and cultural dancers",
+    description: "Classical, contemporary, modern",
     icon: Users,
     count: "120+ artists",
     href: "/artists?category=dancers",
   },
   {
     name: "Speakers",
-    description: "Motivational and keynote speakers",
+    description: "Motivational, keynote, events",
     icon: Mic,
     count: "80+ artists",
     href: "/artists?category=speakers",
   },
   {
     name: "DJs",
-    description: "Professional DJs for all occasions",
+    description: "Parties, clubs, events",
     icon: Headphones,
     count: "100+ artists",
     href: "/artists?category=djs",
