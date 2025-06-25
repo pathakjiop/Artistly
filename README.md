@@ -20,7 +20,7 @@ Artistly Platform is a web application designed to connect artists and art enthu
 
 ```bash
 git clone https://github.com/pathakjiop/Artistly
-cd artistly-platform
+cd Artistly
 npm install
 ```
 
