@@ -59,8 +59,13 @@ const languages = [
   "Bodo",
   "Santhali",
 ]
-
-const feeRanges = ["$200-500", "$500-1000", "$1000-2000", "$2000-5000", "$5000+"]
+const feeRanges = [
+  "₹5,000 - ₹10,000",
+  "₹10,000 - ₹20,000",
+  "₹20,000 - ₹50,000",
+  "₹50,000 - ₹1,00,000",
+  "₹1,00,000+"
+]
 
 const experienceLevels = [
   "Beginner (0-2 years)",
