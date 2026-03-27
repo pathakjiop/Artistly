@@ -1,27 +1,80 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# ═══════════════════════════════════════════
+# Artistly Platform — .gitignore
+# Covers: Next.js Frontend + Spring Boot Backend
+# ═══════════════════════════════════════════
 
-# dependencies
-/node_modules
+# ── Node / npm ──
+node_modules/
+.pnp/
+.pnp.js
 
-# next.js
-/.next/
-/out/
+# ── Next.js ──
+.next/
+out/
+build/
 
-# production
-/build
-
-# debug
+# ── Debug Logs ──
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files
-.env*
+# ── Environment Variables ──
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# vercel
+# ── Vercel ──
 .vercel
 
-# typescript
+# ── TypeScript ──
 *.tsbuildinfo
 next-env.d.ts
+
+# ── Lock files (keep only one) ──
+# Uncomment whichever lock file you do NOT use:
+# package-lock.json
+# pnpm-lock.yaml
+# bun.lock
+
+# ── OS Files ──
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── IDE / Editor ──
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── Java / Maven (Spring Boot Backend) ──
+backend/artistly-backend/target/
+backend/artistly-backend/*.jar
+backend/artistly-backend/*.war
+backend/artistly-backend/.mvn/wrapper/maven-wrapper.jar
+
+# ── Spring Boot ──
+backend/artistly-backend/logs/
+*.log
+
+# ── H2 Database files ──
+*.mv.db
+*.trace.db
+
+# ── Compiled Java classes ──
+*.class
+
+# ── Package files ──
+*.jar
+*.war
+*.ear
+
+# ── Coverage / Test Reports ──
+coverage/
+*.lcov
+backend/artistly-backend/surefire-reports/
