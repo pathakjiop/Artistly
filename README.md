@@ -608,18 +608,4 @@ Contributions are welcome! Here's how:
 4. **Push** to the branch: `git push origin feature/my-feature`
 5. **Open** a Pull Request
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📬 Contact
-
-For questions, feedback, or support — open an issue on GitHub or reach out at [your-email@example.com](mailto:your-email@example.com).
-
----
-
-<p align="center">Built with ❤️ by the Artistly Team</p>
+--=
